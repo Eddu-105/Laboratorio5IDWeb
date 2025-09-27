@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noticias — Laboratorio 05</title>
+  <style>
+    body{font-family:system-ui,Arial,sans-serif;line-height:1.5;margin:0}
+    header,footer{padding:16px 20px;background:#f5f5f7}
+    nav ul{display:flex;gap:14px;list-style:none;padding:0;margin:8px 0 0}
+    nav a{text-decoration:none}
+    main{max-width:980px;margin:20px auto;padding:0 16px}
+    section{margin-block:28px}
+    article{border:1px solid #e5e5e5;border-radius:10px;padding:14px;margin-block:14px}
+    figure{margin:8px 0}
+    img{max-width:100%;height:auto;border-radius:8px}
+    aside{background:#fafafa;border:1px dashed #ddd;padding:12px;border-radius:10px}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="margin:0;">Noticias</h1>
+    <nav aria-label="Menú de navegación">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#locales">Noticias locales</a></li>
+        <li><a href="#internacionales">Noticias internacionales</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección: Locales -->
+    <section id="locales" aria-labelledby="tit-locales">
+      <h2 id="tit-locales">Noticias locales</h2>
+
+      <article>
+        <header>
+          <h3>Municipalidad inaugura laboratorio de computación</h3>
+          <p><time datetime="2025-09-25">25/09/2025</time></p>
+        </header>
+        <p>Se implementaron 25 equipos con software libre para cursos de ofimática y programación básica.</p>
+        <figure>
+          <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg" alt="Aula de cómputo">
+          <figcaption>Aula equipada para prácticas.</figcaption>
+        </figure>
+        <aside aria-label="Noticias relacionadas">
+          <strong>Noticias relacionadas:</strong>
+          <ul>
+            <li><a href="#local-red">Red pública de Wi-Fi se amplía</a></li>
+            <li><a href="#int-becas">Becas tecnológicas internacionales</a></li>
+          </ul>
+        </aside>
+      </article>
+
+      <article id="local-red">
+        <header>
+          <h3>Se amplía red pública de Wi-Fi en plazas principales</h3>
+          <p><time datetime="2025-09-20">20/09/2025</time></p>
+        </header>
+        <p>La cobertura gratuita alcanzará 12 barrios y permitirá acceso a plataformas educativas.</p>
+        <figure>
+          <img src="https://images.pexels.com/photos/374703/pexels-photo-374703.jpeg" alt="Zona Wi-Fi en plaza">
+          <figcaption>Zonas Wi-Fi municipales.</figcaption>
+        </figure>
+        <aside aria-label="Noticias relacionadas">
+          <strong>Noticias relacionadas:</strong>
+          <ul>
+            <li><a href="#locales">Volver a Locales</a></li>
+            <li><a href="#internacionales">Ver Internacionales</a></li>
+          </ul>
+        </aside>
+      </article>
+    </section>
+
+    <!-- Sección: Internacionales -->
+    <section id="internacionales" aria-labelledby="tit-internacionales">
+      <h2 id="tit-internacionales">Noticias internacionales</h2>
+
+      <article id="int-becas">
+        <header>
+          <h3>Programa global ofrece becas para estudiar IA</h3>
+          <p><time datetime="2025-09-22">22/09/2025</time></p>
+        </header>
+        <p>Universidades anuncian becas completas para cursos de ciencia de datos e inteligencia artificial.</p>
+        <figure>
+          <img src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg" alt="Estudiantes internacionales">
+          <figcaption>Convocatorias abiertas.</figcaption>
+        </figure>
+        <aside aria-label="Noticias relacionadas">
+          <strong>Noticias relacionadas:</strong>
+          <ul>
+            <li><a href="#int-cloud">Tendencias de computación en la nube</a></li>
+            <li><a href="#locales">Iniciativas locales</a></li>
+          </ul>
+        </aside>
+      </article>
+
+      <article id="int-cloud">
+        <header>
+          <h3>Informe 2025: la nube impulsa la educación remota</h3>
+          <p><time datetime="2025-09-12">12/09/2025</time></p>
+        </header>
+        <p>El uso de plataformas en la nube crece 40% en universidades y colegios, con foco en seguridad y acceso.</p>
+        <figure>
+          <img src="https://images.pexels.com/photos/3861966/pexels-photo-3861966.jpeg" alt="Trabajo en la nube">
+          <figcaption>Trabajo colaborativo online.</figcaption>
+        </figure>
+        <aside aria-label="Noticias relacionadas">
+          <strong>Noticias relacionadas:</strong>
+          <ul>
+            <li><a href="#internacionales">Volver a Internacionales</a></li>
+            <li><a href="#tit-locales">Ver Locales</a></li>
+          </ul>
+        </aside>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado por <strong>Osmeyer Eddú Meza Romero</strong> — <time datetime="2025">2025</time></p>
+  </footer>
+</body>
+</html>
