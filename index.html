@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Computación — Laboratorio 05</title>
+</head>
+<body>
+  <header>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/009/096/946/small_2x/monitor-screen-computer-with-colorful-rainbow-bubble-illustration-logo-design-vector.jpg" alt="Logo del sitio" width="10%">
+    <div>
+      <h1 style="margin:0;">Mi sitio de Computación</h1>
+      <p style="margin:0;">Laboratorio 05 — HTML semántico</p>
+    </div>
+  </header>
+
+  <nav aria-label="Menú principal">
+    <ul>
+      <li><a href="#intro">Inicio</a></li>
+      <li><a href="#articulos">Artículos</a></li>
+      <li><a href="#recursos">Recursos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="layout" id="articulos">
+    <main>
+      <article id="intro">
+        <header>
+          <h2>¿Qué es la computación?</h2>
+        </header>
+        <p>
+          La computación estudia los procesos de cómputo y el tratamiento automático de la información.
+          Abarca teoría de algoritmos, arquitectura de computadores y desarrollo de software.
+        </p>
+        <figure>
+          <img src= "https://img.datacentermarket.es/wp-content/uploads/2023/09/13122757/Computacion-nube-Adobe-Stock.jpg" alt="Ilustración de computación" width="50%">
+          <figcaption>Figura 1. Visión general del campo.</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <header>
+          <h2>Algoritmos y estructuras de datos</h2>
+        </header>
+        <p>
+          Un algoritmo es un conjunto finito de pasos para resolver un problema. Su eficiencia suele
+          analizarse con notación O grande. Las estructuras de datos (listas, pilas, colas, árboles, grafos)
+          permiten organizar la información para que esos algoritmos sean efectivos.
+        </p>
+        <figure>
+          <img src= "https://cdn-media-1.freecodecamp.org/images/BidoQMlvn0BpD8u95vR7IaGcorlUbo87lAMw" alt="Algoritmos y estructuras de datos" width="50%">
+          <figcaption>Figura 2. EDA.</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <header>
+          <h2>Programación: del código a la solución</h2>
+        </header>
+        <p>
+          Programar consiste en traducir requerimientos en código ejecutable. Las buenas prácticas incluyen
+          pruebas, control de versiones y documentación clara. HTML5 ofrece etiquetas semánticas que mejoran
+          accesibilidad y mantenimiento del front-end.
+        </p>
+        <figure>
+          <img src= "https://www.ceupe.com/images/easyblog_articles/3919/b2ap3_thumbnail_cdigo-fuente.jpg" alt="Código" width="50%">
+          <figcaption>Figura 3. Código.</figcaption>
+        </figure>
+      </article>
+    </main>
+
+    <aside id="recursos" aria-label="Enlaces relacionados">
+      <h3>Recursos recomendados</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener">MDN: Guía de HTML</a></li>
+        <li><a href="https://www.w3.org/TR/html52/" target="_blank" rel="noopener">Especificación HTML</a></li>
+        <li><a href="https://git-scm.com/docs" target="_blank" rel="noopener">Documentación de Git</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer id="contacto">
+    <p><strong>Contacto:</strong> omezaro@unsa.edu.pe · +51 953 721 561</p>
+    <p>&copy; 2025 Laboratorio 05</p>
+  </footer>
+</body>
+</html>
